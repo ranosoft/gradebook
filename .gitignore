@@ -1,0 +1,29 @@
+#generated files
+/test/
+src/GradeBook/bin/*
+src/GradeBook/obj/*
+/obj/
+*.sln
+
+
+#project files
+test/
+.vscode
+.vs
+
+#backup files
+*.bak
+*.zip
+
+#other files
+*_[0-9][0-9][0-9][0-9][0-9][0-9]_[0-9][0-9][0-9][0-9]_*
+.htaccess
+rebase.sh
+gitdev.sh
+
+#composer
+/vendor/
+/composer.phar
+
+#force including .htaccess for lastminutes
+!/tools/lastminutes/.htaccess
